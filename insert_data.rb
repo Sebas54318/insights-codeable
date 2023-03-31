@@ -15,5 +15,4 @@ CSV.foreach('new_data.csv', headers: true) do |row|
   query3 = "INSERT INTO dish(name, restaurant_id, price)
   VALUES ('#{row["dish"]}','#{result2['id']}', '#{row["price"]}')"
   result3 = conn.exec(query3)
-
 end
