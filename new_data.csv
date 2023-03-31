@@ -1,0 +1,266 @@
+visit_date,client_name,age,gender,occupation,nationality,restaurant_name,category,city,address,dish,price
+2019-03-09,Jewel Daniel,28,Male,Physicist,Romanians,Spice Juice Bar,Juice & Smoothies,South Ashelychester,105 Errol Drive,Meatballs with Sauce,32
+2019-02-10,Jewel Daniel,28,Male,Physicist,Romanians,5866 Kitchen,Pizza,Hirthebury,7606 Quentin Prairie,Tacos,27
+2019-12-06,Jewel Daniel,28,Male,Physicist,Romanians,Fat Pizza,Italian,Haleyport,790 Corrine Prairie,Lasagne,34
+2019-05-30,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Pizza,Thai,North Elida,80377 Boyer Hill,Pho,40
+2019-08-05,Jewel Daniel,28,Male,Physicist,Romanians,Sweet Subs,Burgers,Gibsonport,8364 Terry Village,Katsu Curry,34
+2019-04-13,Jewel Daniel,28,Male,Physicist,Romanians,Red Burger,Pizza,Terryshire,8270 Reichert Keys,Souvlaki,44
+2019-03-11,Jewel Daniel,28,Male,Physicist,Romanians,1703 Pub,Italian,Port Jerehaven,7596 Gerlach Mall,Tiramisù,43
+2019-03-15,Jewel Daniel,28,Male,Physicist,Romanians,Spice Pizza,Italian,Lake Maryanna,6297 Trudy Run,Cauliflower Penne,21
+2019-06-04,Jewel Daniel,28,Male,Physicist,Romanians,Green Juice Bar,Asian,North Elida,9480 Marquis Canyon,Pho,26
+2019-05-03,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bar & Grill,Sandwiches,Haleyport,176 Ortiz Square,Bruschette with Tomato,34
+2019-08-08,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Sushi,French,North Shavonne,472 Roni Pines,Caprese Salad,34
+2019-01-23,Jewel Daniel,28,Male,Physicist,Romanians,FLU Burger,Ice Cream,Indiafort,649 Stoltenberg Green,Caesar Salad,35
+2019-11-04,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bar & Grill,Sandwiches,Haleyport,176 Ortiz Square,Lasagne,17
+2019-07-13,Jewel Daniel,28,Male,Physicist,Romanians,Green Creamery,Caribbean,Port Jerehaven,159 Hamill Knolls,Pasta and Beans,42
+2019-07-10,Jewel Daniel,28,Male,Physicist,Romanians,Big Deli,Italian,North Elida,94288 Josh Key,Katsu Curry,17
+2019-02-11,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Pizza,Thai,North Elida,80377 Boyer Hill,Vegetable Soup,15
+2019-09-20,Jewel Daniel,28,Male,Physicist,Romanians,Red Burger,Pizza,Terryshire,8270 Reichert Keys,Bunny Chow,37
+2019-10-31,Jewel Daniel,28,Male,Physicist,Romanians,Spice Pizza,Italian,Lake Maryanna,6297 Trudy Run,Cheeseburger,35
+2019-12-22,Jewel Daniel,28,Male,Physicist,Romanians,Red Eats,Vietnamese,Port Jerehaven,66381 Donald Squares,Caesar Salad,22
+2019-05-20,Jewel Daniel,28,Male,Physicist,Romanians,Golden Grill & Tap,Juice & Smoothies,Lake Maryanna,85729 Langworth Bypass,Stinky Tofu,19
+2019-02-01,Jewel Daniel,28,Male,Physicist,Romanians,Belly Burger,Juice & Smoothies,Hirthebury,403 Alexander Courts,Arepas,17
+2019-04-01,Jewel Daniel,28,Male,Physicist,Romanians,Belly Burger,Juice & Smoothies,Hirthebury,403 Alexander Courts,Souvlaki,43
+2019-05-29,Jewel Daniel,28,Male,Physicist,Romanians,Golden Grill,Thai,Reynoldsview,47512 Sipes Cape,Stinky Tofu,34
+2019-12-08,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Sushi,French,North Shavonne,472 Roni Pines,Ricotta Stuffed Ravioli,45
+2019-10-09,Jewel Daniel,28,Male,Physicist,Romanians,Green Creamery,Caribbean,Port Jerehaven,159 Hamill Knolls,Caprese Salad,35
+2019-11-18,Jewel Daniel,28,Male,Physicist,Romanians,Fat Shakes,Bar,Reynoldsview,13869 Fritsch Trafficway,Ricotta Stuffed Ravioli,35
+2019-01-27,Jewel Daniel,28,Male,Physicist,Romanians,54 Eats,Desserts,Lake Maryanna,9952 Grant Inlet,Mushroom Risotto,26
+2019-02-21,Jewel Daniel,28,Male,Physicist,Romanians,Spice Grill & Tap,Ice Cream,South Ashelychester,13848 Moore Walks,Philadelphia Maki,33
+2019-12-23,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Grill & Tap,African,Terryshire,1999 Haag Rapids,Lasagne,27
+2019-01-25,Jewel Daniel,28,Male,Physicist,Romanians,Spice House,Mexican,Hyatttown,22467 Jerde Springs,Ebiten maki,29
+2019-11-11,Jewel Daniel,28,Male,Physicist,Romanians,78 Curry,Sandwiches,New Alysiafurt,98718 Krajcik Plaza,Caesar Salad,43
+2019-04-17,Jewel Daniel,28,Male,Physicist,Romanians,Spice Grill & Tap,Ice Cream,South Ashelychester,13848 Moore Walks,French Toast,36
+2019-10-19,Jewel Daniel,28,Male,Physicist,Romanians,Golden Grill,Thai,Reynoldsview,47512 Sipes Cape,Pasta Carbonara,35
+2019-09-21,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Burger,Comfort Food,West Tony,674 Felicitas Stream,Risotto with Seafood,37
+2019-07-25,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bakery,Comfort Food,New Alysiafurt,975 Rogelio Viaduct,Hummus,20
+2019-11-02,Jewel Daniel,28,Male,Physicist,Romanians,Red BBQ,Brazilian,East Gertrudmouth,816 Sandy Mall,Som Tam,37
+2019-10-10,Jewel Daniel,28,Male,Physicist,Romanians,Salty Box,Comfort Food,North Shavonne,192 Carolynn Trafficway,Philadelphia Maki,44
+2019-06-21,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bar & Grill,Sandwiches,Haleyport,176 Ortiz Square,Ebiten maki,15
+2019-10-02,Jewel Daniel,28,Male,Physicist,Romanians,Spice Steakhouse,Desserts,New Alysiafurt,2594 Brandi Plains,Risotto with Seafood,19
+2019-10-29,Jewel Daniel,28,Male,Physicist,Romanians,Golden Pizza,Korean,Terryshire,6973 Ankunding Plaza,Chicken Fajitas,36
+2019-03-20,Jewel Daniel,28,Male,Physicist,Romanians,Green Juice Bar,Asian,North Elida,9480 Marquis Canyon,Kebab,20
+2019-03-14,Jewel Daniel,28,Male,Physicist,Romanians,Spice Pub,Ice Cream,North Elida,202 Powlowski Ferry,Teriyaki Chicken Donburi,31
+2019-06-14,Jewel Daniel,28,Male,Physicist,Romanians,PHA Bar & Grill,Ramen,North Elida,314 Schmidt Grove,Pizza,34
+2019-09-15,Jewel Daniel,28,Male,Physicist,Romanians,Spice Pizza,Italian,Lake Maryanna,6297 Trudy Run,Poke,20
+2019-11-17,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Burger,Korean,South Ashelychester,23155 Hills Road,Caesar Salad,22
+2019-07-17,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bakery,Comfort Food,New Alysiafurt,975 Rogelio Viaduct,Chicken Fajitas,17
+2019-11-12,Jewel Daniel,28,Male,Physicist,Romanians,Golden Pizza,Korean,Terryshire,6973 Ankunding Plaza,Chilli con Carne,36
+2019-01-29,Jewel Daniel,28,Male,Physicist,Romanians,885 Pub,Vegan,Port Jerehaven,15330 Lionel Greens,Chicken Parm,41
+2019-05-17,Jewel Daniel,28,Male,Physicist,Romanians,Spice Juice Bar,Juice & Smoothies,South Ashelychester,105 Errol Drive,Kebab,43
+2019-12-31,Jewel Daniel,28,Male,Physicist,Romanians,Green Grill,Sushi,Indiafort,5314 Bernhard Spring,Lasagne,33
+2019-05-25,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Dragon,Senegalese,New Alysiafurt,177 DuBuque Underpass,Sushi,39
+2019-05-31,Jewel Daniel,28,Male,Physicist,Romanians,Orange Diner,Healthy,North Bretstad,76015 Lasonya Landing,Fettuccine Alfredo,42
+2019-07-15,Jewel Daniel,28,Male,Physicist,Romanians,Blue King,Thai,Terryshire,743 Jen Run,Fettuccine Alfredo,30
+2019-07-26,Jewel Daniel,28,Male,Physicist,Romanians,Red Spoon,Juice & Smoothies,Terryshire,77345 Block Tunnel,Teriyaki Chicken Donburi,19
+2019-10-03,Jewel Daniel,28,Male,Physicist,Romanians,Belly Cafe,Korean,West Edmond,407 Gulgowski Alley,Lasagne,38
+2019-02-12,Jewel Daniel,28,Male,Physicist,Romanians,Spice Pizza,Italian,Lake Maryanna,6297 Trudy Run,Caesar Salad,29
+2019-08-11,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Deli,Korean,Terryshire,2860 Brendon Squares,Chicken Fajitas,40
+2019-09-10,Jewel Daniel,28,Male,Physicist,Romanians,Spice Juice Bar,Juice & Smoothies,South Ashelychester,105 Errol Drive,Katsu Curry,34
+2019-06-05,Jewel Daniel,28,Male,Physicist,Romanians,Salty Coffee,Indian,North Shavonne,9897 Mickey Crossing,Pork Belly Buns,37
+2019-03-26,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bakery,Comfort Food,New Alysiafurt,975 Rogelio Viaduct,Ebiten maki,35
+2019-07-11,Jewel Daniel,28,Male,Physicist,Romanians,Orange Steakhouse,Italian,Indiafort,148 Bronwyn Prairie,Seafood Paella,37
+2019-10-22,Jewel Daniel,28,Male,Physicist,Romanians,Red Eats,Vietnamese,Port Jerehaven,66381 Donald Squares,Pappardelle alla Bolognese,20
+2019-01-01,Jewel Daniel,28,Male,Physicist,Romanians,Sweet Bakery,Brazilian,Malenahaven,498 Toshiko Neck,Salmon Nigiri,24
+2019-03-05,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bar & Grill,Sandwiches,Haleyport,176 Ortiz Square,Pappardelle alla Bolognese,26
+2019-11-16,Jewel Daniel,28,Male,Physicist,Romanians,Fat Shakes,Bar,Reynoldsview,13869 Fritsch Trafficway,Tiramisù,19
+2019-07-28,Jewel Daniel,28,Male,Physicist,Romanians,Spice Steakhouse,Desserts,New Alysiafurt,2594 Brandi Plains,Chicken Fajitas,44
+2019-10-17,Jewel Daniel,28,Male,Physicist,Romanians,2766 Steakhouse,Asian,Hyatttown,9425 Hahn Point,Som Tam,24
+2019-03-22,Jewel Daniel,28,Male,Physicist,Romanians,Blue Plate Grill,European,Gibsonport,32579 Beer Points,Arepas,23
+2019-07-08,Jewel Daniel,28,Male,Physicist,Romanians,Salty Coffee,Indian,North Shavonne,9897 Mickey Crossing,Tiramisù,17
+2019-02-22,Jewel Daniel,28,Male,Physicist,Romanians,Red Spoon,Juice & Smoothies,Terryshire,77345 Block Tunnel,Pasta with Tomato and Basil,21
+2019-04-05,Jewel Daniel,28,Male,Physicist,Romanians,Blue Plate Grill,European,Gibsonport,32579 Beer Points,Philadelphia Maki,31
+2019-07-18,Jewel Daniel,28,Male,Physicist,Romanians,Orange Juice Bar,Vietnamese,West Tony,173 Tarsha Light,Pierogi,45
+2019-07-16,Jewel Daniel,28,Male,Physicist,Romanians,Belly Cafe,Korean,West Edmond,407 Gulgowski Alley,Sushi,20
+2019-02-15,Jewel Daniel,28,Male,Physicist,Romanians,Spice Pizza,Italian,Lake Maryanna,6297 Trudy Run,Risotto with Seafood,23
+2019-12-05,Jewel Daniel,28,Male,Physicist,Romanians,Big Burger,African,Lake Lucianoside,32883 Rodriguez Shores,Salmon Nigiri,22
+2019-12-10,Jewel Daniel,28,Male,Physicist,Romanians,Blue Plate Grill,European,Gibsonport,32579 Beer Points,Philadelphia Maki,31
+2019-07-14,Jewel Daniel,28,Male,Physicist,Romanians,Salty Coffee,Indian,North Shavonne,9897 Mickey Crossing,Tiramisù,17
+2019-06-07,Jewel Daniel,28,Male,Physicist,Romanians,Salty Juice Bar,Vietnamese,Hyatttown,91746 Klein Walk,Pasta and Beans,45
+2019-05-11,Jewel Daniel,28,Male,Physicist,Romanians,1703 Pub,Italian,Port Jerehaven,7596 Gerlach Mall,Tiramisù,43
+2019-01-21,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Juice Bar,European,Port Jerehaven,687 Langosh Inlet,Tacos,27
+2019-06-10,Jewel Daniel,28,Male,Physicist,Romanians,Salty Bar & Grill,Healthy,South Ashelychester,60171 Audrie Mountains,Poke,34
+2019-01-20,Jewel Daniel,28,Male,Physicist,Romanians,Salty Coffee,Indian,North Shavonne,9897 Mickey Crossing,Stinky Tofu,44
+2019-08-22,Jewel Daniel,28,Male,Physicist,Romanians,885 Pub,Vegan,Port Jerehaven,15330 Lionel Greens,Pho,19
+2019-09-14,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Pizza,Thai,North Elida,80377 Boyer Hill,Massaman Curry,31
+2019-07-27,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Pizza,Thai,North Elida,80377 Boyer Hill,Pappardelle alla Bolognese,32
+2019-04-02,Jewel Daniel,28,Male,Physicist,Romanians,Red Burger,Pizza,Terryshire,8270 Reichert Keys,Kebab,24
+2019-05-10,Jewel Daniel,28,Male,Physicist,Romanians,Spice Pizza,Italian,Lake Maryanna,6297 Trudy Run,Stinky Tofu,34
+2019-12-17,Jewel Daniel,28,Male,Physicist,Romanians,Belly Cafe,Korean,West Edmond,407 Gulgowski Alley,Caesar Salad,28
+2019-02-25,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Pizza,Thai,North Elida,80377 Boyer Hill,Souvlaki,27
+2019-05-05,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Burger,Korean,South Ashelychester,23155 Hills Road,Stinky Tofu,28
+2019-05-23,Jewel Daniel,28,Male,Physicist,Romanians,Spice Grill & Tap,Ice Cream,South Ashelychester,13848 Moore Walks,Seafood Paella,16
+2019-08-17,Jewel Daniel,28,Male,Physicist,Romanians,Spice Grill & Tap,Ice Cream,South Ashelychester,13848 Moore Walks,Pappardelle alla Bolognese,41
+2019-12-30,Jewel Daniel,28,Male,Physicist,Romanians,NH Coffee,French,Hirthebury,5737 Marquis Cove,Pierogi,29
+2019-12-28,Jewel Daniel,28,Male,Physicist,Romanians,GM Steakhouse,Juice & Smoothies,Port Jerehaven,8854 Kessler Ports,Som Tam,24
+2019-05-19,Jewel Daniel,28,Male,Physicist,Romanians,78 Curry,Sandwiches,New Alysiafurt,98718 Krajcik Plaza,Tiramisù,45
+2019-06-18,Jewel Daniel,28,Male,Physicist,Romanians,Belly Burger,Juice & Smoothies,Hirthebury,403 Alexander Courts,Fettuccine Alfredo,40
+2019-03-10,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Dragon,Senegalese,New Alysiafurt,177 DuBuque Underpass,Scotch Eggs,45
+2019-06-08,Jewel Daniel,28,Male,Physicist,Romanians,2766 Steakhouse,Asian,Hyatttown,9425 Hahn Point,Som Tam,24
+2019-04-22,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Box,Pizza,Lake Maryanna,705 Harber Corners,California Maki,38
+2019-01-10,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Burger,Comfort Food,West Tony,674 Felicitas Stream,Pasta Carbonara,40
+2019-07-12,Jewel Daniel,28,Male,Physicist,Romanians,Golden Grill,Thai,Reynoldsview,47512 Sipes Cape,Poutine,19
+2019-08-14,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bar & Grill,Sandwiches,Haleyport,176 Ortiz Square,Souvlaki,25
+2019-06-15,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Box,Pizza,Lake Maryanna,705 Harber Corners,Chicken Milanese,39
+2019-07-20,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Deli,French,North Bretstad,4975 Huel Avenue,Stinky Tofu,21
+2019-01-02,Jewel Daniel,28,Male,Physicist,Romanians,885 Pub,Vegan,Port Jerehaven,15330 Lionel Greens,Pho,19
+2019-07-19,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Pizza,Thai,North Elida,80377 Boyer Hill,Hummus,17
+2019-03-25,Jewel Daniel,28,Male,Physicist,Romanians,FLU Burger,Ice Cream,Indiafort,649 Stoltenberg Green,Som Tam,40
+2019-01-22,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Box,Pizza,Lake Maryanna,705 Harber Corners,Massaman Curry,41
+2019-01-04,Jewel Daniel,28,Male,Physicist,Romanians,Orange Eats,Senegalese,Reynoldsview,62317 Darren Manors,Chilli con Carne,22
+2019-03-21,Jewel Daniel,28,Male,Physicist,Romanians,936 Box,Tex Mex,South Ashelychester,972 Ritchie Parkways,Pierogi,26
+2019-05-01,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Sushi,French,North Shavonne,472 Roni Pines,Poke,33
+2019-10-21,Jewel Daniel,28,Male,Physicist,Romanians,Green Creamery,Caribbean,Port Jerehaven,159 Hamill Knolls,Scotch Eggs,43
+2019-11-19,Jewel Daniel,28,Male,Physicist,Romanians,CF Diner,African,West Tony,8403 Emile Walks,Pasta Carbonara,39
+2019-02-14,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bar & Grill,Sandwiches,Haleyport,176 Ortiz Square,Som Tam,28
+2019-12-27,Jewel Daniel,28,Male,Physicist,Romanians,Belly Burger,Juice & Smoothies,Hirthebury,403 Alexander Courts,Arepas,17
+2019-08-16,Jewel Daniel,28,Male,Physicist,Romanians,Silver House,Senegalese,East Gertrudmouth,55743 Stephan Glen,Sushi,18
+2019-11-25,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Diner,Caribbean,West Tony,18026 Osinski Forest,Pizza,35
+2019-02-06,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Deli,Korean,Terryshire,2860 Brendon Squares,Poke,41
+2019-08-26,Jewel Daniel,28,Male,Physicist,Romanians,Hungry BBQ,Asian,North Elida,32214 Dante Gardens,Tacos,15
+2019-09-08,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Grill & Tap,African,Terryshire,1999 Haag Rapids,Lasagne,27
+2019-04-30,Jewel Daniel,28,Male,Physicist,Romanians,Sugar Dragon,Senegalese,New Alysiafurt,177 DuBuque Underpass,Bruschette with Tomato,31
+2019-10-24,Jewel Daniel,28,Male,Physicist,Romanians,PHA Bar & Grill,Ramen,North Elida,314 Schmidt Grove,Pork Belly Buns,39
+2019-05-15,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Burger,Comfort Food,West Tony,674 Felicitas Stream,Chicken Parm,29
+2019-09-02,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bar & Grill,Sandwiches,Haleyport,176 Ortiz Square,Caesar Salad,16
+2019-10-04,Jewel Daniel,28,Male,Physicist,Romanians,43 Cafe,Bar,Lake Maryanna,4591 Cheree Via,Seafood Paella,16
+2019-08-13,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Grill & Tap,African,Terryshire,1999 Haag Rapids,Tacos,21
+2019-01-03,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Burger,Comfort Food,West Tony,674 Felicitas Stream,Lasagne,19
+2019-02-16,Jewel Daniel,28,Male,Physicist,Romanians,Golden Bar & Grill,Bakery,South Ashelychester,8585 Lakin Hill,Pasta and Beans,16
+2019-09-17,Jewel Daniel,28,Male,Physicist,Romanians,Orange Bakery,Comfort Food,New Alysiafurt,975 Rogelio Viaduct,Ebiten maki,35
+2019-07-06,Jewel Daniel,28,Male,Physicist,Romanians,Golden Grill,Thai,Reynoldsview,47512 Sipes Cape,Chicken Milanese,22
+2019-10-26,Jewel Daniel,28,Male,Physicist,Romanians,Red Spoon,Juice & Smoothies,Terryshire,77345 Block Tunnel,Risotto with Seafood,43
+2019-07-30,Jewel Daniel,28,Male,Physicist,Romanians,Blue Shakes,Senegalese,Reynoldsview,1868 Doyle Row,Philadelphia Maki,38
+2019-07-02,Jewel Daniel,28,Male,Physicist,Romanians,Salty Box,Comfort Food,North Shavonne,192 Carolynn Trafficway,Caesar Salad,26
+2019-06-13,Jewel Daniel,28,Male,Physicist,Romanians,Belly Eats,Desserts,West Tony,517 Hodkiewicz Manors,Pasta Carbonara,36
+2019-11-10,Jewel Daniel,28,Male,Physicist,Romanians,412 Bar & Grill,Bar,Indiafort,64710 Walsh Ferry,Poutine,31
+2019-02-13,Jewel Daniel,28,Male,Physicist,Romanians,Salty Coffee,Indian,North Shavonne,9897 Mickey Crossing,Bunny Chow,36
+2019-10-01,Jewel Daniel,28,Male,Physicist,Romanians,Spice Pub,Ice Cream,North Elida,202 Powlowski Ferry,Salmon Nigiri,45
+2019-03-08,Jewel Daniel,28,Male,Physicist,Romanians,Green Spoon,Burgers,Reynoldsview,768 Tabetha Isle,Cauliflower Penne,34
+2019-01-13,Jewel Daniel,28,Male,Physicist,Romanians,5866 Kitchen,Pizza,Hirthebury,7606 Quentin Prairie,Cauliflower Penne,28
+2019-12-04,Jewel Daniel,28,Male,Physicist,Romanians,Spice Juice Bar,Juice & Smoothies,South Ashelychester,105 Errol Drive,Chicken Wings,44
+2019-04-29,Jewel Daniel,28,Male,Physicist,Romanians,Smokestack Creamery,American (Traditional),Hirthebury,1903 Tammie Junction,Pork Belly Buns,31
+2019-06-09,Jewel Daniel,28,Male,Physicist,Romanians,Orange Diner,Healthy,North Bretstad,76015 Lasonya Landing,Pappardelle alla Bolognese,17
+2019-08-01,Jewel Daniel,28,Male,Physicist,Romanians,Golden Bar & Grill,Bakery,South Ashelychester,8585 Lakin Hill,Seafood Paella,41
+2019-12-02,Jewel Daniel,28,Male,Physicist,Romanians,Golden Bar & Grill,Bakery,South Ashelychester,8585 Lakin Hill,Pasta and Beans,16
+2019-04-14,Jewel Daniel,28,Male,Physicist,Romanians,Blue Shakes,Senegalese,Reynoldsview,1868 Doyle Row,Souvlaki,45
+2019-04-24,Jewel Daniel,28,Male,Physicist,Romanians,Spice Steakhouse,Desserts,New Alysiafurt,2594 Brandi Plains,Risotto with Seafood,19
+2019-02-20,Jewel Daniel,28,Male,Physicist,Romanians,Orange Juice Bar,Vietnamese,West Tony,173 Tarsha Light,Ebiten maki,33
+2019-07-31,Jewel Daniel,28,Male,Physicist,Romanians,Orange Diner,Healthy,North Bretstad,76015 Lasonya Landing,Seafood Paella,42
+2019-10-16,Jewel Daniel,28,Male,Physicist,Romanians,Blue Shakes,Senegalese,Reynoldsview,1868 Doyle Row,Philadelphia Maki,38
+2019-07-07,Jewel Daniel,28,Male,Physicist,Romanians,78 Curry,Sandwiches,New Alysiafurt,98718 Krajcik Plaza,Tiramisù,45
+2019-03-30,Jewel Daniel,28,Male,Physicist,Romanians,Hungry Diner,Caribbean,West Tony,18026 Osinski Forest,Ebiten maki,23
+2019-03-04,Jewel Daniel,28,Male,Physicist,Romanians,Blue King,Thai,Terryshire,743 Jen Run,French Fries with Sausages,31
+2019-04-11,Jewel Daniel,28,Male,Physicist,Romanians,Blue Eats,European,North Bretstad,497 Ismael Underpass,Kebab,45
+2019-03-23,Jewel Daniel,28,Male,Physicist,Romanians,Hungry BBQ,Asian,North Elida,32214 Dante Gardens,Katsu Curry,44
+2019-12-01,Jewel Daniel,28,Male,Physicist,Romanians,Salty Juice Bar,Vietnamese,Hyatttown,91746 Klein Walk,Fettuccine Alfredo,38
+2019-12-21,Jewel Daniel,28,Male,Physicist,Romanians,Thirsty Deli,Korean,Terryshire,2860 Brendon Squares,Chicken Wings,37
+2019-10-14,Jewel Daniel,28,Male,Physicist,Romanians,Golden Grill,Thai,Reynoldsview,47512 Sipes Cape,Pasta Carbonara,35
+2019-11-01,Jewel Daniel,28,Male,Physicist,Romanians,Big Deli,Italian,North Elida,94288 Josh Key,Massaman Curry,17
+2019-09-18,Jewel Daniel,28,Male,Physicist,Romanians,Fat Shakes,Bar,Reynoldsview,13869 Fritsch Trafficway,Tiramisù,19
+2019-06-03,Jewel Daniel,28,Male,Physicist,Romanians,GM Steakhouse,Juice & Smoothies,Port Jerehaven,8854 Kessler Ports,Cheeseburger,24
+2019-11-15,Jewel Daniel,28,Male,Physicist,Romanians,Belly Dragon,Vegetarian,North Shavonne,219 Ute Center,Pasta and Beans,23
+2019-10-23,Jewel Daniel,28,Male,Physicist,Romanians,75 Eatery,Comfort Food,Reynoldsview,721 Paucek Harbors,Caprese Salad,29
+2019-09-24,Jewel Daniel,28,Male,Physicist,Romanians,Blue Plate Grill,European,Gibsonport,32579 Beer Points,Poke,41
+2019-11-05,Jewel Daniel,28,Male,Physicist,Romanians,Blue King,Thai,Terryshire,743 Jen Run,Lasagne,35
+2019-03-28,Abe Kessler,47,Male,Artist,Algerians,Blue Plate Grill,European,Gibsonport,32579 Beer Points,Pasta Carbonara,18
+2019-05-13,Abe Kessler,47,Male,Artist,Algerians,Green Eatery,Senegalese,New Alysiafurt,523 Alvaro Extensions,Arepas,22
+2019-01-31,Abe Kessler,47,Male,Artist,Algerians,Golden Bar & Grill,Bakery,South Ashelychester,8585 Lakin Hill,Pasta and Beans,16
+2019-07-10,Abe Kessler,47,Male,Artist,Algerians,Belly Eats,Desserts,West Tony,517 Hodkiewicz Manors,Seafood Paella,19
+2019-10-17,Abe Kessler,47,Male,Artist,Algerians,Belly Cafe,Korean,West Edmond,407 Gulgowski Alley,Caprese Salad,31
+2019-12-20,Abe Kessler,47,Male,Artist,Algerians,Orange Diner,Healthy,North Bretstad,76015 Lasonya Landing,Bruschette with Tomato,31
+2019-05-26,Abe Kessler,47,Male,Artist,Algerians,Hungry Burger,Comfort Food,West Tony,674 Felicitas Stream,Pizza,41
+2019-10-25,Abe Kessler,47,Male,Artist,Algerians,Fat Cafe,French,Reynoldsview,7050 Gerlach Mount,Cauliflower Penne,35
+2019-10-30,Abe Kessler,47,Male,Artist,Algerians,Smokestack Cafe,Ramen,West Edmond,644 Fernando Drives,Sushi,44
+2019-07-28,Abe Kessler,47,Male,Artist,Algerians,Golden Grill & Tap,Juice & Smoothies,Lake Maryanna,85729 Langworth Bypass,Scotch Eggs,36
+2019-10-27,Abe Kessler,47,Male,Artist,Algerians,Big Burger,African,Lake Lucianoside,32883 Rodriguez Shores,Bruschette with Tomato,31
+2019-12-22,Abe Kessler,47,Male,Artist,Algerians,Orange Bar & Grill,Sandwiches,Haleyport,176 Ortiz Square,Tiramisù,19
+2019-01-13,Abe Kessler,47,Male,Artist,Algerians,Spice Grill & Tap,Ice Cream,South Ashelychester,13848 Moore Walks,French Toast,36
+2019-03-01,Abe Kessler,47,Male,Artist,Algerians,Sugar Dragon,Senegalese,New Alysiafurt,177 DuBuque Underpass,Tacos,26
+2019-07-08,Abe Kessler,47,Male,Artist,Algerians,Salty Juice Bar,Vietnamese,Hyatttown,91746 Klein Walk,Poutine,17
+2019-12-02,Abe Kessler,47,Male,Artist,Algerians,Smokestack Creamery,American (Traditional),Hirthebury,1903 Tammie Junction,Pork Belly Buns,31
+2019-08-17,Abe Kessler,47,Male,Artist,Algerians,Fat Shakes,Bar,Reynoldsview,13869 Fritsch Trafficway,Pasta with Tomato and Basil,19
+2019-08-04,Abe Kessler,47,Male,Artist,Algerians,Thirsty House,Healthy,Port Jerehaven,8352 Jack Trail,Bunny Chow,30
+2019-09-04,Abe Kessler,47,Male,Artist,Algerians,Thirsty Burger,Korean,South Ashelychester,23155 Hills Road,Pork Sausage Roll,43
+2019-05-11,Abe Kessler,47,Male,Artist,Algerians,FLU Burger,Ice Cream,Indiafort,649 Stoltenberg Green,Cauliflower Penne,38
+2019-05-30,Abe Kessler,47,Male,Artist,Algerians,GM Steakhouse,Juice & Smoothies,Port Jerehaven,8854 Kessler Ports,Som Tam,24
+2019-09-12,Abe Kessler,47,Male,Artist,Algerians,Spice Coffee,Greek,New Alysiafurt,84148 Barrett Stravenue,Arepas,43
+2019-07-22,Abe Kessler,47,Male,Artist,Algerians,Smokestack Bakery,Burgers,Lake Lucianoside,5078 Bruen Dam,Massaman Curry,44
+2019-06-07,Abe Kessler,47,Male,Artist,Algerians,Red Spoon,Juice & Smoothies,Terryshire,77345 Block Tunnel,Teriyaki Chicken Donburi,19
+2019-08-16,Abe Kessler,47,Male,Artist,Algerians,Blue King,Thai,Terryshire,743 Jen Run,Caprese Salad,41
+2019-02-18,Abe Kessler,47,Male,Artist,Algerians,Golden Eats,Pizza,West Edmond,186 Refugio Extensions,Pierogi,40
+2019-04-02,Abe Kessler,47,Male,Artist,Algerians,2766 Steakhouse,Asian,Hyatttown,9425 Hahn Point,Cheeseburger,33
+2019-05-28,Abe Kessler,47,Male,Artist,Algerians,Smokestack Creamery,American (Traditional),Hirthebury,1903 Tammie Junction,Pizza,30
+2019-07-03,Abe Kessler,47,Male,Artist,Algerians,Thirsty Box,Pizza,Lake Maryanna,705 Harber Corners,Bruschette with Tomato,15
+2019-09-20,Abe Kessler,47,Male,Artist,Algerians,Sweet Bakery,Brazilian,Malenahaven,498 Toshiko Neck,Ebiten maki,42
+2019-10-03,Abe Kessler,47,Male,Artist,Algerians,Belly Eats,Desserts,West Tony,517 Hodkiewicz Manors,Vegetable Soup,39
+2019-07-13,Abe Kessler,47,Male,Artist,Algerians,Spice Pub,Ice Cream,North Elida,202 Powlowski Ferry,Souvlaki,32
+2019-07-26,Abe Kessler,47,Male,Artist,Algerians,Golden Eats,Pizza,West Edmond,186 Refugio Extensions,Chicken Fajitas,30
+2019-09-28,Abe Kessler,47,Male,Artist,Algerians,Salty Pizza,Ramen,East Gertrudmouth,19002 Stacey Flats,Cheeseburger,24
+2019-11-12,Abe Kessler,47,Male,Artist,Algerians,Orange Eats,Senegalese,Reynoldsview,62317 Darren Manors,Chicken Wings,31
+2019-10-01,Abe Kessler,47,Male,Artist,Algerians,CF Diner,African,West Tony,8403 Emile Walks,Poke,28
+2019-08-13,Abe Kessler,47,Male,Artist,Algerians,Salty Box,Comfort Food,North Shavonne,192 Carolynn Trafficway,Salmon Nigiri,45
+2019-07-30,Abe Kessler,47,Male,Artist,Algerians,Hungry Grill & Tap,African,Terryshire,1999 Haag Rapids,Stinky Tofu,35
+2019-04-23,Abe Kessler,47,Male,Artist,Algerians,Salty Juice Bar,Vietnamese,Hyatttown,91746 Klein Walk,Pierogi,26
+2019-03-31,Abe Kessler,47,Male,Artist,Algerians,Salty Box,Comfort Food,North Shavonne,192 Carolynn Trafficway,Katsu Curry,32
+2019-03-30,Abe Kessler,47,Male,Artist,Algerians,5866 Kitchen,Pizza,Hirthebury,7606 Quentin Prairie,Mushroom Risotto,16
+2019-11-16,Abe Kessler,47,Male,Artist,Algerians,Salty Pizza,Ramen,East Gertrudmouth,19002 Stacey Flats,Chilli con Carne,33
+2019-10-04,Abe Kessler,47,Male,Artist,Algerians,Orange Juice Bar,Vietnamese,West Tony,173 Tarsha Light,Tuna Sashimi,27
+2019-10-09,Abe Kessler,47,Male,Artist,Algerians,Green Eatery,Senegalese,New Alysiafurt,523 Alvaro Extensions,Tiramisù,17
+2019-05-16,Abe Kessler,47,Male,Artist,Algerians,Salty Juice Bar,Vietnamese,Hyatttown,91746 Klein Walk,Cauliflower Penne,20
+2019-05-22,Abe Kessler,47,Male,Artist,Algerians,Thirsty House,Healthy,Port Jerehaven,8352 Jack Trail,Poke,24
+2019-01-10,Abe Kessler,47,Male,Artist,Algerians,Salty Coffee,Indian,North Shavonne,9897 Mickey Crossing,Pizza,22
+2019-10-23,Abe Kessler,47,Male,Artist,Algerians,Belly Dragon,Vegetarian,North Shavonne,219 Ute Center,Ricotta Stuffed Ravioli,45
+2019-02-01,Abe Kessler,47,Male,Artist,Algerians,Hungry Diner,Caribbean,West Tony,18026 Osinski Forest,Chicken Milanese,27
+2019-02-02,Abe Kessler,47,Male,Artist,Algerians,Big Dragon,Vietnamese,North Bretstad,30596 Fritsch Cape,Bruschette with Tomato,37
+2019-02-08,Abe Kessler,47,Male,Artist,Algerians,Green Kitchen,Asian,Hirthebury,1855 Pfannerstill Trail,Pho,23
+2019-01-15,Abe Kessler,47,Male,Artist,Algerians,PHA Bar & Grill,Ramen,North Elida,314 Schmidt Grove,Arepas,36
+2019-01-21,Abe Kessler,47,Male,Artist,Algerians,Orange Steakhouse,Italian,Indiafort,148 Bronwyn Prairie,Chilli con Carne,35
+2019-08-31,Abe Kessler,47,Male,Artist,Algerians,Sweet Bakery,Brazilian,Malenahaven,498 Toshiko Neck,Salmon Nigiri,24
+2019-04-04,Abe Kessler,47,Male,Artist,Algerians,Orange Steakhouse,Italian,Indiafort,148 Bronwyn Prairie,Sushi,39
+2019-12-16,Abe Kessler,47,Male,Artist,Algerians,Green Juice Bar,Asian,North Elida,9480 Marquis Canyon,Chicken Milanese,32
+2019-02-14,Abe Kessler,47,Male,Artist,Algerians,14 Cafe,Vegan,Hyatttown,6278 Haywood Landing,Lasagne,31
+2019-05-08,Abe Kessler,47,Male,Artist,Algerians,NH Coffee,French,Hirthebury,5737 Marquis Cove,Risotto with Seafood,19
+2019-02-10,Abe Kessler,47,Male,Artist,Algerians,Big King,Caribbean,West Tony,4300 Hoppe Overpass,Meatballs with Sauce,34
+2019-02-21,Abe Kessler,47,Male,Artist,Algerians,Salty Box,Comfort Food,North Shavonne,192 Carolynn Trafficway,Lasagne,43
+2019-03-24,Abe Kessler,47,Male,Artist,Algerians,FLU Burger,Ice Cream,Indiafort,649 Stoltenberg Green,Fettuccine Alfredo,17
+2019-01-18,Abe Kessler,47,Male,Artist,Algerians,Golden Grill & Tap,Juice & Smoothies,Lake Maryanna,85729 Langworth Bypass,Pork Belly Buns,44
+2019-11-09,Abe Kessler,47,Male,Artist,Algerians,Orange Juice Bar,Vietnamese,West Tony,173 Tarsha Light,Pappardelle alla Bolognese,36
+2019-08-19,Abe Kessler,47,Male,Artist,Algerians,Spice Eatery,Ramen,Malenahaven,231 Hoppe Oval,Cheeseburger,31
+2019-07-14,Abe Kessler,47,Male,Artist,Algerians,14 Cafe,Vegan,Hyatttown,6278 Haywood Landing,Teriyaki Chicken Donburi,23
+2019-09-09,Abe Kessler,47,Male,Artist,Algerians,Orange Bakery,Comfort Food,New Alysiafurt,975 Rogelio Viaduct,Poke,43
+2019-12-24,Abe Kessler,47,Male,Artist,Algerians,46 Sushi,Caribbean,Terryshire,8613 Werner Harbors,Pork Belly Buns,34
+2019-07-24,Abe Kessler,47,Male,Artist,Algerians,Smokestack Spoon,Italian,Lake Lucianoside,578 Harber Island,Ricotta Stuffed Ravioli,27
+2019-11-01,Abe Kessler,47,Male,Artist,Algerians,Thirsty Box,Pizza,Lake Maryanna,705 Harber Corners,Pasta with Tomato and Basil,24
+2019-11-18,Abe Kessler,47,Male,Artist,Algerians,Sweet Bakery,Brazilian,Malenahaven,498 Toshiko Neck,Chilli con Carne,19
+2019-11-27,Abe Kessler,47,Male,Artist,Algerians,Green Kitchen,Asian,Hirthebury,1855 Pfannerstill Trail,Tacos,28
+2019-06-22,Abe Kessler,47,Male,Artist,Algerians,Belly Dragon,Vegetarian,North Shavonne,219 Ute Center,Pasta with Tomato and Basil,43
+2019-02-12,Abe Kessler,47,Male,Artist,Algerians,Hungry Diner,Caribbean,West Tony,18026 Osinski Forest,Stinky Tofu,45
+2019-10-11,Abe Kessler,47,Male,Artist,Algerians,Fat Shakes,Bar,Reynoldsview,13869 Fritsch Trafficway,Som Tam,20
+2019-03-17,Abe Kessler,47,Male,Artist,Algerians,DB Deli,Bar,Hirthebury,442 Vicente Islands,Hummus,42
+2019-02-11,Abe Kessler,47,Male,Artist,Algerians,PHA Bar & Grill,Ramen,North Elida,314 Schmidt Grove,Chicken Fajitas,28
+2019-06-29,Abe Kessler,47,Male,Artist,Algerians,Hungry Diner,Caribbean,West Tony,18026 Osinski Forest,Pho,39
+2019-10-21,Abe Kessler,47,Male,Artist,Algerians,Red BBQ,Brazilian,East Gertrudmouth,816 Sandy Mall,Chilli con Carne,44
+2019-09-11,Abe Kessler,47,Male,Artist,Algerians,Belly Eats,Desserts,West Tony,517 Hodkiewicz Manors,Cheeseburger,30
+2019-05-01,Abe Kessler,47,Male,Artist,Algerians,Blue Eats,European,North Bretstad,497 Ismael Underpass,Cheeseburger,44
+2019-05-05,Abe Kessler,47,Male,Artist,Algerians,Sugar Sushi,Asian,South Ashelychester,99335 Laronda Fall,Risotto with Seafood,15
+2019-06-21,Abe Kessler,47,Male,Artist,Algerians,Red Spoon,Juice & Smoothies,Terryshire,77345 Block Tunnel,Tuna Sashimi,28
+2019-06-30,Abe Kessler,47,Male,Artist,Algerians,43 Cafe,Bar,Lake Maryanna,4591 Cheree Via,Ebiten maki,39
+2019-09-27,Abe Kessler,47,Male,Artist,Algerians,Salty Box,Comfort Food,North Shavonne,192 Carolynn Trafficway,French Fries with Sausages,27
+2019-03-19,Abe Kessler,47,Male,Artist,Algerians,FLU Burger,Ice Cream,Indiafort,649 Stoltenberg Green,Som Tam,40
+2019-03-06,Abe Kessler,47,Male,Artist,Algerians,Spice Coffee,Greek,New Alysiafurt,84148 Barrett Stravenue,Mushroom Risotto,29
+2019-07-21,Abe Kessler,47,Male,Artist,Algerians,Green Juice Bar,Asian,North Elida,9480 Marquis Canyon,Bunny Chow,43
+2019-06-10,Abe Kessler,47,Male,Artist,Algerians,Sugar Pizza,Thai,North Elida,80377 Boyer Hill,Souvlaki,27
+2019-05-04,Abe Kessler,47,Male,Artist,Algerians,Fat Cafe,French,Reynoldsview,7050 Gerlach Mount,Tacos,32
+2019-11-17,Abe Kessler,47,Male,Artist,Algerians,Fat Cafe,French,Reynoldsview,7050 Gerlach Mount,Chicken Milanese,45
+2019-07-02,Abe Kessler,47,Male,Artist,Algerians,Salty Coffee,Indian,North Shavonne,9897 Mickey Crossing,Pork Belly Buns,37
+2019-06-19,Abe Kessler,47,Male,Artist,Algerians,Hungry Burger,Comfort Food,West Tony,674 Felicitas Stream,Poke,44
+2019-04-01,Abe Kessler,47,Male,Artist,Algerians,Golden Pizza,Korean,Terryshire,6973 Ankunding Plaza,Caesar Salad,39
+2019-11-08,Abe Kessler,47,Male,Artist,Algerians,Belly Eats,Desserts,West Tony,517 Hodkiewicz Manors,Vegetable Soup,39
+2019-03-20,Abe Kessler,47,Male,Artist,Algerians,Belly Cafe,Korean,West Edmond,407 Gulgowski Alley,Kebab,43
+2019-01-01,Abe Kessler,47,Male,Artist,Algerians,PHA Bar & Grill,Ramen,North Elida,314 Schmidt Grove,Fettuccine Alfredo,42
+2019-03-25,Abe Kessler,47,Male,Artist,Algerians,Belly Cafe,Korean,West Edmond,407 Gulgowski Alley,Scotch Eggs,26
+2019-04-10,Abe Kessler,47,Male,Artist,Algerians,Spice Pizza,Italian,Lake Maryanna,6297 Trudy Run,Ebiten maki,34
+2019-06-03,Abe Kessler,47,Male,Artist,Algerians,Orange Juice Bar,Vietnamese,West Tony,173 Tarsha Light,Pappardelle alla Bolognese,36
+2019-03-03,Abe Kessler,47,Male,Artist,Algerians,Thirsty Burger,Korean,South Ashelychester,23155 Hills Road,Chicken Parm,35
+2019-12-09,Abe Kessler,47,Male,Artist,Algerians,Spice Eatery,Ramen,Malenahaven,231 Hoppe Oval,Poutine,24
