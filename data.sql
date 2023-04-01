@@ -29,8 +29,3 @@ CREATE TABLE visit(
   restaurant_id INTEGER NOT NULL REFERENCES restaurant,
   dish_id INTEGER NOT NULL REFERENCES dish
 );
-
--- DROP TABLE visit;
--- DROP TABLE dish;
--- DROP TABLE restaurant;
--- DROP TABLE client;

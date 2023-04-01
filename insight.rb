@@ -3,6 +3,7 @@ require 'terminal-table'
 
 class Insight 
   def initialize
+    @conn = PG.connect(dbname : "insight")
   end
 
   def start
