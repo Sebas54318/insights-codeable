@@ -18,7 +18,7 @@ class Insight
       when "1"
         puts search_restaurants(params)
       when "2"
-
+        puts unique_dishes
       when "3"
 
       when "4"
@@ -85,6 +85,16 @@ class Insight
   p query
     result = @conn.exec(query)
     create_table(result, "Search Restaurants")
+  end
+  def unique_dishes
+    
+
+    query = "SELECT DISTINCT name 
+    FROM dish"
+    # LIMIT 5;"
+
+    result = @conn.exec(query)
+    create_table(result, "List of dishes")
   end
   
 
