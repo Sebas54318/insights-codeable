@@ -3,7 +3,8 @@ require 'terminal-table'
 
 class Insight 
   def initialize
-    @conn = PG.connect(dbname : "insight")
+    @conn = PG.connect(dbname: "insights")
+
   end
 
   def start
@@ -12,10 +13,10 @@ class Insight
 
     loop do
       print "> "
-      option, params = gets.chomp.split
+      option, params = gets.chomp.strip.split(' ', 2)
       case option
       when "1"
-
+        puts search_restaurants(params)
       when "2"
 
       when "3"
@@ -34,7 +35,7 @@ class Insight
       
       when "menu"
         print_menu
-      when "exit"
+      when "quit"
         break
       else
         puts "Invalid Option"
@@ -64,11 +65,34 @@ class Insight
     puts "Pick a number from the list and an [option] if necessary"
   end
 
+  def search_restaurants(params)
+    # category=country | city=city 
+    if params.nil? || params.empty?
+      query = "SELECT r.name, r.category, r.city FROM restaurant AS r;"
+    else
+      field, term = params.split("=")
+  
+      column_by_field = {
+        "name" => "r.name",
+        "category" => "r.category",
+        "city" => "r.city"
+      }
+  
+      query = "SELECT r.name, r.category, r.city
+      FROM restaurant AS r
+      WHERE LOWER(#{column_by_field[field]}) = '#{term.downcase.gsub("'", "''")}';"
+    end
+  p query
+    result = @conn.exec(query)
+    create_table(result, "Search Restaurants")
+  end
+  
+
   def create_table(result, title)
     table = Terminal::Table.new
-    table.title = 
-    table.headings = 
-    table.rows =
+    table.title = title
+    table.headings = result.fields
+    table.rows = result.values
     table
   end
 end
