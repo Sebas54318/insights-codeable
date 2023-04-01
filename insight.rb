@@ -3,7 +3,7 @@ require 'terminal-table'
 
 class Insight 
   def initialize
-    @conn = PG.connect(dbname : "insight")
+    @conn = PG.connect(dbname: "insights")
   end
 
   def start
@@ -12,24 +12,26 @@ class Insight
 
     loop do
       print "> "
-      option, params = gets.chomp.split
+      option, parameters = gets.chomp.split(" ",2)
       case option
       when "1"
-
+        puts restaurant_list(parameters)
       when "2"
-
+        puts dishes
       when "3"
 
       when "4"
-
+        puts top_restaurants_by_visitors
       when "5"
-
+        puts top_restaurants_by_sales
       when "6"
-
+        puts top_restaurants_by_avg
       when "7"
 
       when "8"
-
+      
+      when "9"
+        puts best_price_dish
       when "10" 
       
       when "menu"
@@ -43,6 +45,62 @@ class Insight
   end
 
   private
+
+  def restaurant_list(parameters = nil)
+    if parameters == nil
+      query = "SELECT DISTINCT name, category, city FROM restaurant;"
+    else
+      field, term = parameters.split('=')
+      query = "SELECT DISTINCT name, category, city FROM restaurant
+      WHERE #{field} = '#{term}';"
+    end
+    
+    result = @conn.exec(query)
+    create_table(result, "List of restaurants")
+  end
+
+  def dishes
+    query = "SELECT DISTINCT name FROM dish;"
+    result = @conn.exec(query)
+    create_table(result, "List of Dishes")
+  end
+
+  def top_restaurants_by_visitors
+    query = "SELECT r.name, COUNT(c.name) AS visitors FROM client AS c
+    JOIN visit AS v ON c.id = v.client_id
+    JOIN restaurant AS r ON v.restaurant_id = r.id
+    GROUP BY r.name
+    ORDER BY visitors DESC;"
+    result = @conn.exec(query)
+    create_table(result, "Top 10 restaurants by visitors")
+  end
+
+  def top_restaurants_by_sales
+    query = "SELECT r.name, SUM(price) AS sales FROM restaurant AS r
+    JOIN dish AS d ON r.id = d.restaurant_id
+    GROUP BY r.name
+    ORDER BY sales DESC;"
+    result = @conn.exec(query)
+    create_table(result, "Top 10 restaurants by Sales")
+  end
+
+  def top_restaurants_by_avg
+    query = "SELECT r.name, ROUND(AVG(price),1) AS avg_expense FROM restaurant AS r
+    JOIN dish AS d ON r.id = d.restaurant_id
+    GROUP BY r.name
+    ORDER BY avg_expense DESC;"
+    result = @conn.exec(query)
+    create_table(result, "Top 10 restaurants by average expense per user")
+  end
+
+  def best_price_dish
+    query = "SELECT d.name AS dish, MIN(price) FROM restaurant AS r
+    JOIN dish AS d ON d.restaurant_id = r.id
+    GROUP BY d.name;"
+    result = @conn.exec(query)
+    create_table(result, "Best price for dish")
+  end
+
   def print_welcome
     puts 'Welcome to the Restaurants Insights!'
     puts "Write 'menu' at any moment to print the menu again and 'quit' to exit."
@@ -66,9 +124,9 @@ class Insight
 
   def create_table(result, title)
     table = Terminal::Table.new
-    table.title = 
-    table.headings = 
-    table.rows =
+    table.title = title
+    table.headings = result.fields
+    table.rows = result.values
     table
   end
 end
