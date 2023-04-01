@@ -29,7 +29,7 @@ class Insight
       when "7"
 
       when "8"
-      
+        puts sales_by_month(parameters)
       when "9"
         puts best_price_dish
       when "10" 
@@ -91,6 +91,22 @@ class Insight
     ORDER BY avg_expense DESC;"
     result = @conn.exec(query)
     create_table(result, "Top 10 restaurants by average expense per user")
+  end
+
+  def sales_by_month(parameters = nil)
+    if parameters == nil
+      query = "SELECT to_char(v.date, 'MONTH') AS month, SUM(price) AS sales FROM visit AS v
+      JOIN dish AS d ON d.id = v.dish_id
+      GROUP BY month;"
+    else
+      field, term = parameters.split('=')
+      query = "SELECT to_char(v.date, 'MONTH') AS month, SUM(price) AS sales FROM visit AS v
+      JOIN dish AS d ON d.id = v.dish_id
+      GROUP BY month
+      ORDER BY sales #{term.upcase};"
+    end
+    result = @conn.exec(query)
+    create_table(result, "Total sales by month")
   end
 
   def best_price_dish

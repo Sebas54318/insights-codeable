@@ -34,6 +34,13 @@ JOIN dish AS d ON r.id = d.restaurant_id
 GROUP BY r.name
 ORDER BY "avg expense" DESC;
 
+8
+SELECT to_char(v.date, 'MONTH') AS month, SUM(price) AS sales FROM visit AS v
+JOIN dish AS d ON d.id = v.dish_id
+GROUP BY month
+ORDER BY sales DESC;
+
+
 9
 SELECT d.name AS dish, MIN(price) FROM restaurant AS r
 JOIN dish AS d ON d.restaurant_id = r.id
