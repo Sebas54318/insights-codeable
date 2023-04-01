@@ -27,7 +27,7 @@ class Insight
       when "6"
         puts top_restaurants_by_avg
       when "7"
-
+        puts avg_consumer_expense(parameters)
       when "8"
         puts sales_by_month(parameters)
       when "9"
@@ -91,6 +91,21 @@ class Insight
     ORDER BY avg_expense DESC;"
     result = @conn.exec(query)
     create_table(result, "Top 10 restaurants by average expense per user")
+  end
+
+  def avg_consumer_expense(parameters)
+    field, term = parameters.split("=")
+    termino = term.downcase
+    if termino == "age" || termino == "gender" || termino == "occupation" || termino == "nationality"
+      query = "SELECT c.#{termino}, ROUND(AVG(d.price),1) AS avg_expense FROM client AS c
+      JOIN visit AS v ON v.client_id = c.id
+      JOIN dish AS d ON d.id = v.dish_id
+      GROUP BY c.#{termino};"
+    else
+      puts "No ingreso un campo valido"
+    end
+    result = @conn.exec(query)
+    create_table(result, "Average consumer expenses")
   end
 
   def sales_by_month(parameters = nil)
