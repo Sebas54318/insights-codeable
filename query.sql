@@ -51,3 +51,9 @@ ORDER BY sales DESC;
 SELECT d.name AS dish, MIN(price) FROM restaurant AS r
 JOIN dish AS d ON d.restaurant_id = r.id
 GROUP BY d.name;
+
+10
+SELECT c.age, d.name, COUNT(d.name) FROM client AS c
+JOIN visit AS v ON c.id = v.client_id
+JOIN dish AS d ON v.dish_id = d.id
+GROUP BY c.age;

@@ -134,9 +134,21 @@ class Insight
   end
 
   def favorite_dish_by_group(parameters)
-    query = ""
+    field, term = parameters.split('=')
+    data = {
+      "age" => "c.age",
+      "gender" => "c.gender",
+      "occupation" => "c.occupation",
+      "nationality" => "c.nationality"
+    }
+    query = "SELECT #{data[field]}, d.name, COUNT(d.name) AS count FROM client AS c
+    JOIN visit AS v ON c.id = v.client_id
+    JOIN dish AS d ON v.dish_id = d.id WHERE #{data[field]} = '#{term.capitalize}'
+    GROUP BY #{data[field]}, d.name
+    ORDER BY count DESC
+    LIMIT 1;"
     result = @conn.exec(query)
-    create_table(result, "Favorite dish")
+    create_table(result, "Favorite Dish")
   end
 
   def print_welcome
