@@ -1,5 +1,6 @@
 require 'pg'
 require 'terminal-table'
+require 'colorize'
 
 class Insight 
   def initialize
@@ -33,7 +34,7 @@ class Insight
       when "9"
         puts best_price_dish
       when "10" 
-      
+        puts favorite_dish_by_group(parameters)
       when "menu"
         print_menu
       when "exit"
@@ -132,6 +133,12 @@ class Insight
     create_table(result, "Best price for dish")
   end
 
+  def favorite_dish_by_group(parameters)
+    query = ""
+    result = @conn.exec(query)
+    create_table(result, "Favorite dish")
+  end
+
   def print_welcome
     puts 'Welcome to the Restaurants Insights!'
     puts "Write 'menu' at any moment to print the menu again and 'quit' to exit."
@@ -155,7 +162,7 @@ class Insight
 
   def create_table(result, title)
     table = Terminal::Table.new
-    table.title = title
+    table.title = title.colorize(:green)
     table.headings = result.fields
     table.rows = result.values
     table
