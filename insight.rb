@@ -8,6 +8,8 @@ class Insight
   end
 
   def start
+    puts print_insight.colorize(:blue).bold
+    puts ""
     print_welcome
     print_menu
 
@@ -38,6 +40,7 @@ class Insight
       when "menu"
         print_menu
       when "exit"
+        puts "Made with \u2764  by Victor V. , Sebastian M. , Kevin Q.".colorize(:yellow).bold
         break
       else
         puts "Invalid Option"
@@ -175,33 +178,44 @@ class Insight
     create_table(result, "Favorite Dish")
   end
 
+  def print_insight
+    insight = <<~DELIMETER
+    #$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#
+    #$#$#$#$#$#$#$                               $#$#$#$#$#$#$#
+    #$##$##$##$ ---         Insights            --- #$##$##$#$#
+    #$#$#$#$#$#$#$                               $#$#$#$#$#$#$#
+    #$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#$#
+    DELIMETER
+  end
+
   def print_welcome
-    puts 'Welcome to the Restaurants Insights!'
-    puts "Write 'menu' at any moment to print the menu again and 'quit' to exit."
+    puts 'Welcome to the Restaurants Insights!'.colorize(:white).bold
+    puts "Write 'menu' at any moment to print the menu again and 'quit' to exit.".colorize(:white).bold
   end
 
   def print_menu
-    puts "---"
-    puts "1. List of restaurants included in the research filter by ['' | category=string | city=string]"
-    puts "2. List of unique dishes included in the research"
-    puts "3. Number and distribution (%) of clients by [group=[age | gender | occupation | nationality]]"
-    puts "4. Top 10 restaurants by the number of visitors."
-    puts "5. Top 10 restaurants by the sum of sales."
-    puts "6. Top 10 restaurants by the average expense of their clients."
-    puts "7. The average consumer expense group by [group=[age | gender | occupation | nationality]]"
-    puts "8. The total sales of all the restaurants group by month [order=[asc | desc]]"
-    puts "9. The list of dishes and the restaurant where you can find it at a lower price."
-    puts "10. The favorite dish for [age=number | gender=string | occupation=string | nationality=string]"
-    puts "---"
-    puts "Pick a number from the list and an [option] if necessary"
+    puts "---".colorize(:yellow).bold
+    puts "1. List of restaurants included in the research filter by ['' | category=string | city=string]".colorize(:cyan).italic
+    puts "2. List of unique dishes included in the research".colorize(:cyan).italic
+    puts "3. Number and distribution (%) of clients by [group=[age | gender | occupation | nationality]]".colorize(:cyan).italic
+    puts "4. Top 10 restaurants by the number of visitors.".colorize(:cyan).italic
+    puts "5. Top 10 restaurants by the sum of sales.".colorize(:cyan).italic
+    puts "6. Top 10 restaurants by the average expense of their clients.".colorize(:cyan).italic
+    puts "7. The average consumer expense group by [group=[age | gender | occupation | nationality]]".colorize(:cyan).italic
+    puts "8. The total sales of all the restaurants group by month [order=[asc | desc]]".colorize(:cyan).italic
+    puts "9. The list of dishes and the restaurant where you can find it at a lower price.".colorize(:cyan).italic
+    puts "10. The favorite dish for [age=number | gender=string | occupation=string | nationality=string]".colorize(:cyan).italic
+    puts "---".colorize(:yellow).bold
+    puts "Pick a number from the list and an [option] if necessary".colorize(:white).bold
   end
 
   def create_table(result, title)
     table = Terminal::Table.new
-    table.title = title.colorize(:green)
-    table.headings = result.fields
+    table.title = title.bold
+    res = result.fields.map do |row| row.bold end
+    table.headings = res
     table.rows = result.values
-    table
+    table.to_s.colorize(:cyan)
   end
 end
 
