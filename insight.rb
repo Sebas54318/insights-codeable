@@ -8,7 +8,39 @@ class Insight
   def start
     print_welcome
     print_menu
+
+    loop do
+      print "> "
+      option, params = gets.chomp.split
+      case option
+      when "1"
+
+      when "2"
+
+      when "3"
+
+      when "4"
+
+      when "5"
+
+      when "6"
+
+      when "7"
+
+      when "8"
+
+      when "10" 
+      
+      when "menu"
+        print_menu
+      when "exit"
+        break
+      else
+        puts "Invalid Option"
+      end
+    end
   end
+
   private
   def print_welcome
     puts 'Welcome to the Restaurants Insights!'
@@ -31,6 +63,13 @@ class Insight
     puts "Pick a number from the list and an [option] if necessary"
   end
 
+  def create_table(result, title)
+    table = Terminal::Table.new
+    table.title = 
+    table.headings = 
+    table.rows =
+    table
+  end
 end
 
 insights = Insight.new
