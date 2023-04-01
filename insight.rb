@@ -20,7 +20,7 @@ class Insight
       when "2"
         puts dishes
       when "3"
-
+        puts group_by(parameters)
       when "4"
         puts top_restaurants_by_visitors
       when "5"
@@ -76,6 +76,24 @@ class Insight
     create_table(result, "Top 10 restaurants by visitors")
   end
 
+  def group_by(parameters)
+    # 3. Number and distribution (%) of clients by [group=[age | gender | occupation | nationality]]"
+    if parameters.nil? || parameters.empty?
+      return "invalid parameters"
+    else
+      field, term = parameters.split("=")
+
+    query = "SELECT #{term}, COUNT(*) AS count, ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM visit), 2) AS percentage
+    FROM visit
+    JOIN client ON visit.client_id = client.id
+    GROUP BY #{term}
+    ORDER BY #{term};"
+
+    result = @conn.exec(query)
+    create_table(result, "Group by #{term.downcase.gsub("'", "''")}")
+  end
+  end
+
   def top_restaurants_by_sales
     query = "SELECT r.name, SUM(price) AS sales FROM restaurant AS r
     JOIN dish AS d ON r.id = d.restaurant_id
@@ -126,11 +144,17 @@ class Insight
   end
 
   def best_price_dish
-    query = "SELECT d.name AS dish, MIN(price) FROM restaurant AS r
-    JOIN dish AS d ON d.restaurant_id = r.id
-    GROUP BY d.name;"
+    # query = "SELECT d.name AS dish, MIN(price) FROM restaurant AS r
+    # JOIN dish AS d ON d.restaurant_id = r.id
+    # GROUP BY d.name;"
+    # result = @conn.exec(query)
+    # create_table(result, "Best price for dish")
+    query ="SELECT DISTINCT ON (d.name) d.name AS Dish, r.name AS Restaurant, d.price
+    FROM dish d
+    JOIN restaurant r ON r.id = d.restaurant_id
+    ORDER BY d.name, d.price;"
     result = @conn.exec(query)
-    create_table(result, "Best price for dish")
+    create_table(result, "Dish low price by restaurant")
   end
 
   def favorite_dish_by_group(parameters)
